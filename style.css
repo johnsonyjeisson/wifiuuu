@@ -8,6 +8,17 @@ body {
     height: 100%;
 }
 
+
+a:link {
+  color:white;
+  }
+  a:visited {
+  color:white;
+  }
+  a:hover {
+  color:white;
+  }
+
 .vimeo-wrapper {
   position: fixed;
   top: 0;
@@ -30,30 +41,32 @@ body {
 }
 
  h3 {
-     background-color: whitesmoke;
+     background-color: none;
      opacity: 80% ;
-     color: black;
+     color: whitesmoke;
      display: inline-block;
      position: absolute;
      text-align: justify;
      padding: 2%;
-     right: 23%;
-     left: 23%;
+     right: 15%;
+     left: 15%;
+     bottom: .5%;
      font-family: '', monospace;
      font-size: 1vw;
      text-decoration: none;
     }
-        
+      
+    /*
 .row {
 float: center;
 width: 33.33%;
 background-color: transparent;
 padding: 2px;
 position: fixed;
-bottom: 5%;
-left: 40%;
+bottom: 6%;
+right: 1%;
 }
-
+*/
 .column {
   width: 100%;
 }
